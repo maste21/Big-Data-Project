@@ -1,5 +1,4 @@
 
-# spot_me
 ### Requirements
 
  #### Setting Up PySpark
