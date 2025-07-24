@@ -76,6 +76,6 @@ runnung elasticsearch and reactivesearch UI
     bin/elasticsearch 
     cd  name_of_your_app 
     npm start
-After running producer.py to publish camera feeds then run kafka_spark.py to consume feeds from kafka, run yolov5 and send results to elasticsearch .(Make sure all spark dependencies are on the same directory where producer.py and kafka_spark.py exists. )
+Run producer.py to publish camera feeds then run kafka_spark.py to consume feeds from kafka, run yolov5 and send results to elasticsearch .(Make sure all spark dependencies are on the same directory where producer.py and kafka_spark.py exists. )
 
 Finally UI will list all the results
